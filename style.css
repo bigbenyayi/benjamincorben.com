@@ -9,10 +9,6 @@ body {
 
 }
 
-
-
-
-
 header{
   width: 100%;
   max-height: 1080px;
@@ -190,13 +186,10 @@ header{
 
   
   .textWithBlurredBg:hover {
-     -webkit-transform: scale(1.7);
-  -moz-transform: scale(1.7);
-  -o-transform: scale(1.7);
+   
   transform: scale(1.7);
   transition: all 0.5s;
-  -webkit-transition: all 0.5s;
-  filter:blur(3.5px) brightness(90%);
+  
   }
 
 
